@@ -1,5 +1,5 @@
 .navbar {
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+   background: rgb(110, 150, 110);
   height: 80px;
   display: flex;
   justify-content: center;
@@ -10,6 +10,7 @@
   z-index: 999;
 }
 
+
 .navbar-container {
   display: flex;
   justify-content: center;
@@ -19,7 +20,7 @@
 }
 
 .navbar-logo {
-  color: #fff;
+  color:white;
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
@@ -29,9 +30,10 @@
   align-items: center;
 }
 
-.fa-typo3 {
+.fa-solid .fa-flower-daffodil {
   margin-left: 0.5rem;
   font-size: 1.8rem;
+ 
 }
 
 .nav-menu {
