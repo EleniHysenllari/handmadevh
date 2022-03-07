@@ -1,11 +1,12 @@
 .container-slider {
-    max-width: 700px;
-    height: 400px;
+     max-width: 700px;
+    height: 500px;
     margin: 50px auto 0;
     margin-bottom: 70px;
     position: relative;
     overflow: hidden;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+  
   }
   @media screen and (max-width: 700px){
     .container-slider {
@@ -29,31 +30,33 @@
   }
   
   .btn-slide {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
-    background: #f1f1f1;
-    border: 1px solid rgba(34, 34, 34, 0.287);
+    background: transparent;
+    border: 5px solid rgba(34, 34, 34, 0.287);
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
   }
-  
+  .btn-slide:hover {
+    background: #f1f1f1;
+  }
   .btn-slide img {
-    width: 40px;
+    width: 25px;
     height: 25px;
     pointer-events: none;
   }
   .prev {
     top: 50%;
-    left: 20px;
+    left: 10px;
     transform: translateY(-60%);
   }
   .next {
     top: 50%;
-    right: 20px;
+    right: 10px;
     transform: translateY(-60%);
   }
   
